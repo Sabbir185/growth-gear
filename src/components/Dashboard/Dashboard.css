@@ -1,0 +1,45 @@
+.details-container {
+    border: 1px solid rgb(228, 227, 227);
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 40px 30px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.que-img img{
+    width: 40px;
+}
+
+.progressBar {
+    background-color: lightgray;
+    height: 15px;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+.progressBar div {
+    background-color: rgb(228, 154, 18);
+    height: 15px;
+    border-radius: 100px;
+    margin-top: 5px;
+    width: 30%;
+}
+.status {
+    color: rgb(228, 154, 18);
+    text-align: end;
+    font-weight: 400;
+}
+
+.info-img {
+    width: 30px;
+}
+
+.f-size {
+    font-size: 14px;
+}
+
+.submit-form{
+    background-color: rgb(228, 154, 18);
+    color: white;
+    font-weight: 500;
+    padding: 10px 40px;
+}
