@@ -12,7 +12,7 @@ const Contents = () => {
 
     return (
         <div className="content-container">
-
+            
             <div className="d-flex justify-content-between mt-3">
                 <div className="form-check">
                     <label className="form-check-label" for="flexCheckDefault">

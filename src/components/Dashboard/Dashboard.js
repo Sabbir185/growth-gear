@@ -3,11 +3,15 @@ import './Dashboard.css'
 import question from '../../images/Group 90.png'
 import info from '../../images/Group 91.png'
 import Contents from '../Contents/Contents';
+import toggler from '../../images/icons8-arrow-left-64.png';
 
 const Dashboard = () => {
 
     return (
-        <section>
+        <section className="toggle-reference">
+
+            <img src={toggler} alt="" className="toggle"/>
+
             <div className="row">
                 <form className="col details-container">
                     <div className="d-flex justify-content-between que-img">

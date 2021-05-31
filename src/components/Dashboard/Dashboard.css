@@ -44,3 +44,20 @@
     font-weight: 500;
     padding: 10px 40px;
 }
+
+.toggle-reference {
+    position: relative;
+}
+
+.toggle {
+    width: 50px;
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    z-index: 1;
+    transition: all .5s ease-out;
+}
+.toggle:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
