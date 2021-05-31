@@ -2,6 +2,7 @@ import React from 'react';
 import './Dashboard.css'
 import question from '../../images/Group 90.png'
 import info from '../../images/Group 91.png'
+import Contents from '../Contents/Contents';
 
 const Dashboard = () => {
 
@@ -33,7 +34,7 @@ const Dashboard = () => {
                 </form>
 
                 <div className="col">
-                    <p>select all</p>
+                    <Contents/>
                 </div>
             </div>
         </section>

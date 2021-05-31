@@ -1,0 +1,25 @@
+.card-container {
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+    box-shadow: 1px 1px 10px lightgray;
+    margin-bottom: 15px;
+}
+
+.typography {
+    padding: 10px;
+    text-align: justify;
+}
+
+.counter {
+    border: 1px dotted gray;
+    padding: 3px 10px;
+}
+
+.leftIcon img {
+    margin-left: 10px;
+    width: 15px;
+}
+
+.rightIcon img {
+    width: 15px;
+}

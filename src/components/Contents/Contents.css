@@ -1,0 +1,12 @@
+.content-container {
+    background-color: #F6F6F6;
+    height: 85vh;
+    padding-left: 20px;
+    margin-top: 10px;
+    overflow: scroll;
+}
+
+.logo-container img{
+    width: 15px;
+    margin-left: 20px;
+}
