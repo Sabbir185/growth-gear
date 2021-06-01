@@ -14,17 +14,18 @@ const ContentCard = () => {
         setCharCount(e.target.value)
     }
 
+
     return (
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-            <label class="form-check-label" for="flexCheckChecked">
+        <div className="form-check">
+            <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked"/>
+            <label className="form-check-label" for="flexCheckChecked">
                 <div className="card-container">
                     <div className="typography">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem corporis sunt odio fugit nesciunt sapiente nobis et voluptates porro hic placeat dolorem sed facilis veritatis error, sit nemo eligendi tempora vero? Animi voluptas quod tenetur.</p>
 
                         <div className="d-flex">
                             <select onChange={handleChar} name="" id="" className="form-control w-50 mr-2">
-                                <option value="Characters" >Characters</option>
+                                <option defaultValue="Characters" >Characters</option>
                                 <option value="250" >250</option>
                                 <option value="300" >300</option>
                                 <option value="350" >350</option>

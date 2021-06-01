@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contents.css';
 import collection from '../../images/ic_collections_bookmark_24px@2x.png';
 import deleted from '../../images/ic_delete_24px@2x.png';
@@ -12,12 +12,12 @@ const Contents = () => {
 
     return (
         <div className="content-container">
-            
+
             <div className="d-flex justify-content-between mt-3">
                 <div className="form-check">
                     <label className="form-check-label" for="flexCheckDefault">
                         Select All
-                </label>
+                    </label>
                     <input className="form-check-input ml-3" type="checkbox" value="" id="flexCheckDefault" />
                 </div>
                 <div className="logo-container mr-3">
@@ -32,7 +32,7 @@ const Contents = () => {
 
             <div>
                 {
-                    numbers.map(card => <ContentCard />)
+                    numbers.map(card => <ContentCard key={card}/>)
                 }
             </div>
 
