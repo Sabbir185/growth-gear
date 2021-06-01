@@ -49,15 +49,48 @@
     position: relative;
 }
 
-.toggle {
-    width: 50px;
+/* toggle btn */
+.leftToggle {
+    width: 40px;
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 51%;
     z-index: 1;
-    transition: all .5s ease-out;
+    transition: all .2s ease-out;
 }
-.toggle:hover {
+.leftToggle:hover {
     transform: scale(1.2);
     cursor: pointer;
+}
+.rightToggle {
+    width: 40px;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+    z-index: 1;
+    transition: all .2s ease-out;
+}
+.rightToggle:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+/* side bar */
+.sidebar {
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 10px lightgray;
+    margin-left: 20px;
+    position: relative;
+}
+.text-rotate {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #002173;
 }
